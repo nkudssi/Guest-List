@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>C79</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h2>
+                List of Guests
+            </h2>
+            <div>
+            <h3>Enter Guest Name</h3>
+            <input type="text" placeholder="Name of Guest" id="guest1">
+            <button id="submit" onclick="submit()">Submit</button>
+            <hr>
+            <div id="display_name"></div>
+            
+            <hr>
+            <h3>Guest List</h3> 
+            <div id="guestlist"></div>
+            <button onclick="show()">Show</button>
+            <hr>    
+            <button id="sortbutton" onclick="sorting()">Sort</button>
+            <div id="sorted"></div>
+            <input type="text" placeholder="Search for Guest" id="searchtext">
+            <button id="searchbutton" onclick="search()">Search</button>
+            <br>
+            <div id="search_display"></div>
+            </div>
+        </center>
+    </body>
+</html>
